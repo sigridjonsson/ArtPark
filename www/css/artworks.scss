@@ -1,0 +1,103 @@
+// ALL ARTWORKS
+.artworksInfo {
+    margin-top: 20px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.artworksInfo .color {
+    height: 100px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    background-color: $blue;
+}
+
+.artworksInfo .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 20%;
+    border-radius: 5px;
+    margin-top: -30px;
+}
+
+.artworksInfo .park {
+    color: $orange;
+    margin-top: -10px;
+}
+
+.artworksInfo p {
+    text-align: center;
+}
+
+.artworksInfo a {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(180deg,#12B3D6 0%,#0D7A92 100%);
+    text-align: center;
+    display: block;
+    padding: 5px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 55px;
+    width: 80%;
+}
+
+// INDIVIDUAL ARTWORK
+.colorInd {
+    background-color: $blue;
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    border-radius: 5px;
+    margin-top: -30px;
+}
+
+.logoTwo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 30%;
+    border-radius: 5px;
+    margin-top: -30px;
+}
+
+p {
+    text-align: center;
+}
+
+.park {
+    color: $orange;
+}
+
+.specialNav {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.specialNav i {
+    margin-top: 50%;
+    color: $blue;
+    transform: rotate(45deg);
+    font-size: 50px;
+}

@@ -1,0 +1,70 @@
+.message {
+    background-color: #F2F0EC;
+    border-radius: 24px 24px 24px 0;
+    padding: 15px;
+}
+
+.message .bold {
+    font-weight: bold;
+}
+
+.mail {
+    margin-top: 30px;
+}
+
+.password {
+    margin-bottom: 20px;
+}
+
+.input {
+    display: block;
+    padding: 0.6rem 0.6rem;
+    box-sizing: border-box;
+    width: 32rem;
+    margin-bottom: 1.4rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+}
+
+@media (max-width: 667px) {
+    .input {
+        width: 100%;
+    }
+}
+
+.input-label {
+    font-weight: bold;
+    margin: 2rem 0 0 0;
+    display: block;
+}
+
+.login {
+    background: linear-gradient(180deg, #11afd1, #109dbc);
+    font-family: Roboto Condensed;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 12px 35px 13px 35px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.regLink {
+    text-decoration: none;
+    font-size: 16px;
+    color: #10a5c5;
+    float: right;
+    margin-bottom: 20px;
+}
+
+
+// BACK BUTTON FOR THE REGISTER PAGE
+.toLogin i {
+    font-size: 50px;
+    color: $blue;
+    margin-left: -35px;
+    margin-top: -25px;
+}
